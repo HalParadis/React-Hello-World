@@ -1,11 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import Profile from './profile';
 
 const App = (props) => {
   return <div className="app">
-    <div className="profile">
-      <h1>Profile</h1>
-    </div>
+    <Profile />
     <div className="dark-mode">
       <h1>Dark Mode</h1>
     </div>
